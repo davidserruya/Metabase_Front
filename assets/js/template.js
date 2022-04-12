@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
-	$('#illustration').hover( function(){
-		$(this).addClass('expand');
+	document.getElementById("illustration").hover( function(){
+		this.classList.add("expand");
 	}, function(){
-		$(this).removeClass('expand');
+		this.classList.remove("expand");
 	} );
 });
