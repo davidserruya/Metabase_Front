@@ -6,7 +6,9 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"> </script>
+
         <script src="assets/js/template.js"></script>
 	<!-- Bootstrap itself -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -129,7 +131,15 @@
 <br>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="assets/js/template.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+	$('#illustration').hover( function(){
+		$(this).addClass('expand');
+	}, function(){
+		$(this).removeClass('expand');
+	} );
+      });
+</script>
 
 
 
