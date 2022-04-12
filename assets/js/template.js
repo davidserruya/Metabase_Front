@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
 	$('#illustration').hover( function(){
 		$(this).addClass('expand');
 	}, function(){
